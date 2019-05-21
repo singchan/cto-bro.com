@@ -1,17 +1,6 @@
 ---
-notPage:
-  - /admin/data.json
-// "data": [
-//   {% for item in site.data %}
-//     {
-//       "id": "{{item[0]}}",
-//       "title": "{{item[0]}}",
-//       "values": {{item[1] | jsonify}}
-//     }
-//     {%- if forloop.last -%}{%- else -%},{%- endif -%}
-//   {%- endfor -%}
-// ]
 ---
+
 {
   "collections": {
     {% for item in site.collections %}
